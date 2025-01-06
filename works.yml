@@ -1,0 +1,750 @@
+AWC_About-Us:
+    type: Article
+    title: AWC - About Us
+    author: AWC
+    date: 2013
+    url:
+        value: https://www.aviationweather.gov/info
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Aviation Weather Center
+        url: https://www.aviationweather.gov/
+
+AWC_Text-Data-Server:
+    type: Article
+    title: AWC - Text Data Server
+    author: AWC
+    date: 2013
+    url:
+        value: https://www.aviationweather.gov/dataserver
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Aviation Weather Center
+        url: https://www.aviationweather.gov/
+
+AWC_METAR-Information:
+    type: Article
+    title: AWC - METAR Information
+    author: AWC
+    date: 2013
+    url:
+        value: https://www.aviationweather.gov/metar
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Aviation Weather Center
+        url: https://www.aviationweather.gov/
+
+Barani_Affordable-Auto-METAR:
+    type: Article
+    title: Affordable Auto-METAR for small airports finally a reality
+    author: Barani, Jan
+    date: 2018-05
+    url:
+        value: https://www.baranidesign.com/news-innovations-blog/2018/5/26/affordable-auto-metar-for-small-airports-finally-a-reality-at-farnborough-airshow-2018
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Barani Design
+        url: https://www.baranidesign.com/
+
+Barani_What-is-the-difference-between-METAR-and-AUTO-METAR:
+    type: Article
+    title: What is the difference between METAR and AUTO-METAR?
+    author: Barani, Jan
+    date: 2018-07
+    url:
+        value: https://www.baranidesign.com/news-innovations-blog/2018/7/2/what-is-the-difference-between-metar-and-auto-metar
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Barani Design
+        url: https://www.baranidesign.com/
+
+Barani_AWOS-Weather-Stations:
+    type: Article
+    title: AWOS Weather Stations
+    author: Barani, Jan
+    url:
+        value: https://www.baranidesign.com/weather-station-awos
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Barani Design
+        url: https://www.baranidesign.com/
+
+Barani_Airport-heliport-auto-metar:
+    type: Article
+    title: Airport and heliport auto-metar
+    author: Barani, Jan
+    url:
+        value: https://www.baranidesign.com/airport-heliport-wms
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Barani Design
+        url: https://www.baranidesign.com/
+
+Zoom-Earth_Weather-Maps:
+    type: Article
+    title: Weather Maps
+    author: Zoom Earth
+    url:
+        value: https://zoom.earth/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Zoom Earth
+        url: https://zoom.earth/
+
+ICAMS_Federal-meteorological-handbooks:
+    type: web
+    title: Federal meteorological handbooks
+    author: ICAMS
+    url:
+        value: https://www.icams-portal.gov/resources/ofcm/fmh/allfmh2.htm
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: ICAMS
+        url: https://www.icams-portal.gov/
+
+ASOS-AWOS:
+    type: Article
+    title: Automated Surface/Weather Observing Systems (ASOS/AWOS)
+    author: NCEI
+    date: 2021-03
+    url:
+        value: https://www.ncei.noaa.gov/products/land-based-station/automated-surface-weather-observing-systems
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: NCEI
+        url: https://www.ncei.noaa.gov/
+        parent:
+            type: Web
+            title: NOAA
+            url: https://www.noaa.gov/
+
+Julia-Documentation:
+    type: Reference
+    title: Julia Documentation
+    author: Julia Foundation
+    serial-number: v1
+    url:
+        value: https://docs.julialang.org/en/v1/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Julia
+        url: https://julialang.org/
+
+Python-Documentation:
+    type: Reference
+    title: Python Documentation
+    author: Python Foundation
+    serial-number: v3
+    url:
+        value: https://docs.python.org/3/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Python
+        url: https://www.python.org/
+
+The-Linux-Command-Line:
+    type: Book
+    title: The Linux Command Line
+    edition: 2
+    author: Shotts, William E.
+    publisher: No Starch Press
+    language: en-US
+    isbn: 9781593273897
+    date: 2012
+
+Wicked-Cool-Shell-Scripts:
+    type: Book
+    title: Wicked Cool Shell Scripts
+    edition: 2
+    author:
+        - Perry, Brandon
+        - Taylor, Dave
+    publisher: No Starch Press
+    language: en-US
+    isbn: 9781593270124
+    date: 2016
+
+Python-One-Liners:
+    type: Book
+    title: Python One-Liners
+    edition: 1
+    author: Mayer, Christian
+    publisher: No Starch Press
+    language: en-US
+    isbn: 9781718500501
+    date: 2020
+
+Python-Tools-for-Scientists:
+    type: Book
+    title: Python Tools for Scientists An introduction to using anaconda, JupiterLab, and python's scientific libraries
+    edition: 1
+    author: Vaughan Lee
+    publisher: No Starch Press
+    language: en-US
+    isbn: 9781718502666
+    date: 2022
+
+Doing-Math-with-Python:
+    type: Book
+    title: Doing Math with Python Use Programming to Explore Algebra, Statistics, Calculus, and More!
+    edition: 1
+    author: Amit, Saha
+    publisher: No Starch Press
+    language: en-US
+    isbn: 9781593276409
+    date: 2015
+
+Python-for-Data-Science:
+    type: Book
+    title: Python for Data Science A Hands-On Introduction
+    edition: 1
+    author: Vasiliev, Yuli
+    publisher: No Starch Press
+    language: en-US
+    isbn: 9781718502208
+    date: 2022
+
+An-Introduction-to-Shell-Programming:
+    type: Web
+    title: An Introduction to Shell Programming
+    author: Shell Foundation
+    url:
+        value: http://www.faqs.org/docs/air/tsshell.html
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: FAQs.org
+        url: http://www.faqs.org/
+
+Surface-weather-observation-stations:
+    type: Article
+    title: Surface weather observation stations
+    author: FAA
+    url:
+        value: https://www.faa.gov/air_traffic/weather/asos
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: FAA
+        url: https://www.faa.gov/
+
+Getting-Data:
+    type: Article
+    title: Getting Data and Time from NTP Server with ESP32
+    author: Last Minute Engineers
+    url:
+        value: https://lastminuteengineers.com/esp32-ntp-server-date-time-tutorial/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Last Minute Engineers
+        url: https://lastminuteengineers.com/
+
+Weather-Meter-Kit:
+    type: Article
+    title: Weather Meter Kit
+    author: Sparkfun
+    url:
+        value: https://www.sparkfun.com/products/15901
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: SparkFun
+        url: https://www.sparkfun.com/
+
+Weather-Carrier-Board:
+    type: Article
+    title: Weather Carrier Board
+    author: SparkFun
+    url:
+        value: https://www.sparkfun.com/products/16794
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: SparkFun
+        url: https://www.sparkfun.com/
+
+MicroMod-ESP32-Processor:
+    type: Article
+    title: MicroMod ESP32 Processor
+    author: SparkFun
+    url:
+        value: https://www.sparkfun.com/products/16781
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: SparkFun
+        url: https://www.sparkfun.com/
+
+MicroMod-ESP32-Processor-Board-Hookup-Guide:
+    type: Article
+    title: MicroMod ESP32 Processor Board Hookup Guide
+    author: SparkFun
+    url:
+        value: https://learn.sparkfun.com/tutorials/micromod-esp32-processor-board-hookup-guide
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: SparkFun
+        url: https://www.sparkfun.com/
+
+MicroMod-ESP32-Weather-Carrier-Board-Hookup-Guide:
+    type: Article
+    title: MicroMod ESP32 Weather Carrier Board Hookup Guide
+    author: SparkFun
+    url:
+        value: https://learn.sparkfun.com/tutorials/micromod-weather-carrier-board-hookup-guide
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: SparkFun
+        url: https://www.sparkfun.com/
+
+Weather-Meter-Hookup-Guide:
+    type: Article
+    title: Weather Meter Hookup Guide
+    author: SparkFun
+    url:
+        value: https://learn.sparkfun.com/tutorials/weather-meter-hookup-guide
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: SparkFun
+        url: https://www.sparkfun.com/
+
+Open-Meteo-Documentation:
+    type: Reference
+    title: Open Meteo Documentation
+    author: Open Meteo
+    url:
+        value: https://open-meteo.com/en/docs/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Open Meteo
+        url: https://open-meteo.com/
+
+OpenWeather-API:
+    type: Reference
+    title: Weather API
+    author: OpenWeather
+    url:
+        value: https://openweathermap.org/api
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: OpenWeather
+        url: https://openweathermap.org/
+
+AccuWeather-APIs:
+    type: Reference
+    title: AccuWeather APIs
+    author: AccuWeather
+    url:
+        value: https://developer.accuweather.com/apis
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: AccuWeather
+        url: https://www.accuweather.com/
+
+JSON-Crack:
+    type: Web
+    title: JSON Crack
+    author: JSON Crack
+    url:
+        value: https://jsoncrack.com/
+        date: 2023-04-11
+
+BME680:
+    type: Article
+    title: BME680 with ESP32 using Arduino IDE (Gas, Pressure, Temperature, Humidity)
+    author: Microcontrollers Lab
+    url:
+        value: https://microcontrollerslab.com/bme680-esp32-arduino-oled-display/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Microcontrollers Lab
+        url: https://microcontrollerslab.com/
+
+Perspective-Guide:
+    type: Reference
+    title: Perspective JavaScript user guide
+    author: FINOS
+    url:
+        value: https://perspective.finos.org/docs/js
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Perspective
+        url: https://perspective.finos.org/
+        parent:
+            type: Web
+            title: FINOS
+            url: https://finos.org/
+
+Makie:
+    type: Reference
+    title: Interactive visualization and powerful plotting in Julia - 
+    author: Makie
+    url:
+        value: https://docs.makie.org/stable/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Makie
+        url: https://makie.org/
+
+crontab-guru:
+    type: Web
+    title: Cron Schedule Expression Generator
+    author: Crontab Guru
+    url:
+        value: https://crontab.guru/
+        date: 2023-04-11
+
+PocketBase:
+    type: Reference
+    title: PocketBase - Documentation
+    author: PocketBase
+    url:
+        value: https://pocketbase.io/docs/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: PocketBase
+        url: https://pocketbase.io/
+
+pandas:
+    type: Reference
+    title: pandas - Python Data Analysis Library
+    author: PyData
+    url:
+        value: https://pandas.pydata.org/docs/
+        date: 2023-06-14
+    parent:
+        type: Web
+        title: pandas
+        url: https://pandas.pydata.org/
+
+Ubuntu-Server:
+    type: Reference
+    title: Ubuntu Server Documentation
+    author: Ubuntu
+    url:
+        value: https://ubuntu.com/server/docs
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Ubuntu
+        url: https://ubuntu.com/
+
+IMCO_Guide:
+    type: Reference
+    title: A Guide to Standards and Best Practices
+    author: ICAMS
+    page-total: 75
+    url:
+        value: https://www.icams-portal.gov/resources/icams/related_documents/2021_fmh13.pdf
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: ICAMS
+        url: https://www.icams-portal.gov/
+
+WMO_Guide:
+    type: Reference
+    title: Guide to Instruments and Methods of Observation.
+    author: WMO
+    volume: 1
+    edition: 8
+    page-total: 581
+    isbn: 9789263100085
+    date: 2021
+    url:
+        value: https://library.wmo.int/doc_num.php?explnum_id=11386
+        date: 2023-04-11
+
+METAR-TAF-Abbreviations:
+    type: Reference
+    title: METAR and TAF Abbreviations
+    author: Weather.gov
+    date: 2008-12-24
+    url:
+        value: https://www.weather.gov/media/wrh/mesowest/metar_decode_key.pdf
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Weather.gov
+        url: https://www.weather.gov/
+
+METAR-Text-to-Symbol-Matching:
+    type: Reference
+    title: METAR Text to Symbol 
+    author: AWC
+    url:
+        value: https://www.aviationweather.gov/docs/metar/wxSymbols_anno2.pdf
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Aviation Weather Center
+        url: https://www.aviationweather.gov/
+
+EMAs:
+    type: Web
+    title: Estaciones Meteorológicas Automáticas (EMA's)
+    author: SMN
+    url:
+        value: https://smn.conagua.gob.mx/es/observando-el-tiempo/estaciones-meteorologicas-automaticas-ema-s
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Servicio Meteorológico Nacional
+        url: https://smn.conagua.gob.mx/
+        parent:
+            type: Web
+            title: CONAGUA
+            url: https://www.conagua.gob.mx/
+            parent:
+                type: Web
+                title: Gobierno de México
+                url: https://www.gob.mx/
+
+Datos-Abiertos:
+    type: Web
+    title: Datos Abiertos
+    author: Gobierno de México
+    url:
+        value: https://datos.gob.mx/
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Gobierno de México
+        url: https://www.gob.mx/
+
+NMX-1:
+    type: Reference
+    title: NMX-AA-166/2-SCFI-2015
+    author: Gobierno de México
+    date: 2015
+    url:
+        value: https://www.gob.mx/cms/uploads/attachment/file/166838/nmx-aa-166-2-scfi-2015.pdf
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Gobierno de México
+        url: https://www.gob.mx/
+
+NMX-2:
+    type: Reference
+    title: NMX-AA-166/1-SCFI-2013
+    author: Gobierno de México
+    date: 2013
+    url:
+        value: https://www.gob.mx/cms/uploads/attachment/file/166835/nmx-aa-166-1-scfi-2013_1_.pdf
+        date: 2023-04-11
+
+wikipedia_automated-airport-weather-station:
+    type: Article
+    title: Automated airport weather station
+    author: Wikipedia,
+    date: 2023-01
+    url: 
+        value: https://en.wikipedia.org/w/index.php?title=Automated_airport_weather_station&oldid=1135363695
+        date: 2023-04-11
+    parent:
+        type: Web
+        title: Wikipedia
+        url: https://wikipedia.org/
+
+dictionary:
+    type: Reference
+    title: Dictionary of Aviation
+    edition: 2
+    author: Crocker, David
+    publisher: A&C Black
+    language: en_US
+    isbn: 9780713687347
+    date: 2010
+
+write-great-code-vol-1:
+    type: Book
+    title: Write Great Code, Volume 1 Understanding the Machine
+    edition: 2
+    author : Hyde, Randall
+    publisher: No Starch Press
+    language: en_US
+    isbn: 9781718500372
+    date: 2020
+
+write-great-code-vol-2:
+    type: Book
+    title: Write Great Code, Volume 2 Thinking Low-Level
+    edition: 2
+    author : Hyde, Randall
+    publisher: No Starch Press
+    language: en_US
+    isbn: 9781718500389
+    date: 2020
+
+write-great-code-vol-3:
+    type: Book
+    title: Write Great Code, Volume 3 Engineering Software
+    edition: 1
+    author : Hyde, Randall
+    publisher: No Starch Press
+    language: en_US
+    isbn: 9781593279790
+    date: 2020
+
+the-arduino-inventors-guide:
+    type: Book
+    title: The Arduino Inventor's Guide
+    edition: 1
+    author :
+        - Huang, Brian
+        - Runberg, Derek
+    publisher: No Starch Press
+    language: en_US
+    isbn: 9781593276522
+    date: 2017
+
+arduino-workshop:
+    type: Book
+    title: Arduino Workshop
+    edition: 2
+    author : Boxall, John
+    publisher: No Starch Press
+    language: en_US
+    isbn: 9781718500587
+    date: 2021
+
+oracle:
+    type: Article
+    title: Oracle Cloud (modo gratuito)
+    author: Oracle
+    url:
+        value: https://www.oracle.com/mx/cloud/free/
+        date: 2023-04-15
+    parent:
+        type: Web
+        title: Oracle
+        url: https://www.oracle.com/
+
+cloudflared:
+    type: Article
+    title: Cloudflare Tunnel
+    author: Cloudflare
+    url:
+        value: https://www.cloudflare.com/products/tunnel/
+        date: 2023-04-15
+    parent:
+        type: Web
+        title: Cloudflare
+        url: https://www.cloudflare.com/
+
+d2:
+    type: Reference
+    title: D2 Declarative Diagramming
+    author: D2 Lang
+    url:
+        value: https://d2lang.com/
+        date: 2023-05-16
+
+clean-architecture:
+    type: Book
+    title: Clean Architecture A Craftsman's Guide to Software Structure and Design
+    edition: 1
+    author : Martin, Robert
+    publisher: Prentice Hall
+    language: en_US
+    isbn: 9780134494166
+    date: 2017
+
+la-crosse-technology_925-1418:
+    type: Article
+    title: 925-1418 Sensor Weather Shield
+    author: La Crosse Technology
+    url:
+        value: https://www.lacrossetechnology.com/products/925-1418
+        date: 2023-05-15
+    parent:
+        type: Web
+        title: La Crosse Technology
+        url: https://www.lacrossetechnology.com/
+
+guia-de-instrumentos-y-metodos:
+    type: Book
+    title: Guía de Instrumentos y Métodos de Observación
+    author: WMO
+    isbn: 9789263360083
+    date: 2018
+    language: es_ES
+
+AC-00-45H:
+    type: Book
+    title: Advisory Circular. Aviation Weather Services
+    author: FAA
+    date: 2016-11-14
+    language: en_US
+
+manual-de-claves:
+    type: Book
+    title: Manual de Claves
+    author: OMM
+    isbn: 9789263303066
+    date: 2011
+    language: es_ES
+
+training-guide-in-surface-weather-observations:
+    type: Book
+    title: Training Guide in Surface Weather Observations
+    author: NWS
+    date: 1998
+    language: en_US
+
+manual-teorico-practico-del-observador-meteorologico:
+    type: Book
+    title: Manual Teórico Práctico del Observador Meteorológico de Superficie
+    author: Comisión Nacional del Agua
+    date: 2010
+    language: es_ES
+
+guia-del-sistema-mundial-de-observacion:
+    type: Book
+    title: Guía del Sistema Mundial de Observación
+    author: OMM
+    isbn: 9789263304889
+    date: 2010
+    language: es_ES
+
+CAPMA:
+    type: Web
+    title: Centro de Análisis y Pronósticos Meteorológicos Aeronáuticos (CAPMA)
+    author: CAPMA
+    url:
+        value: http://capma.mx/capma/capma.html
+        date: 2024-05-01
+
+Aviation-Terminology:
+    type: Book
+    title: Aviation Terminology Terminología Aeronáutica
+    edition: 1
+    author: García de la Cuesta, Jorge
+    publisher: Ediciones Díaz de Santos
+    language: es_ES
+    isbn: 8479785799
+    date: 2003

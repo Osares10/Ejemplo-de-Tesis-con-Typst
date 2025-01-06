@@ -1,0 +1,75 @@
+request: Solicitar
+request.accuweather: 24 horas
+request.accuweather.shape: package
+request.awc: 24 horas
+request.awc.shape: package
+request.open-meteo: 24 horas
+request.open-meteo.shape: package
+request.openweather: 20 minutos
+request.openweather.shape: package
+
+server: Servicios
+server.accuweather: Accuweather
+server.accuweather.shape: cloud
+server.awc: AWC
+server.awc.shape: cloud
+server.open-meteo: Open-Meteo
+server.open-meteo.shape: cloud
+server.openweather: Open Weather Map
+server.openweather.shape: cloud
+
+receive: Recibir
+receive.accuweather: 24 x día
+receive.accuweather.shape: package
+receive.awc: Día
+receive.awc.shape: package
+receive.open-meteo: 24 x día
+receive.open-meteo.shape: package
+receive.openweather: 72 x día
+receive.openweather.shape: package
+
+refine: Refinar
+refine.accuweather: Datos
+refine.accuweather.shape: page
+refine.awc: Datos
+refine.awc.shape: page
+refine.open-meteo: Datos
+refine.open-meteo.shape: page
+refine.openweather: Datos
+refine.openweather.shape: page
+
+send: Enviar
+send.accuweather: 24 x día
+send.accuweather.shape: package
+send.awc: Día
+send.awc.shape: package
+send.open-meteo: 24 x día
+send.open-meteo.shape: package
+send.openweather: 72 x día
+send.openweather.shape: package
+
+pocketbase: PocketBase
+pocketbase.shape: cloud
+pocketbase.accuweather: Datos
+pocketbase.accuweather.shape: page
+pocketbase.awc: Datos
+pocketbase.awc.shape: page
+pocketbase.open-meteo: Datos
+pocketbase.open-meteo.shape: page
+pocketbase.openweather: Datos
+pocketbase.openweather.shape: page
+
+log: Registrar
+log.history: Historial de operaciones
+
+request.accuweather -> server.accuweather -> receive.accuweather -> refine.accuweather -> send.accuweather -> pocketbase.accuweather
+
+request.awc -> server.awc -> receive.awc -> refine.awc -> send.awc -> pocketbase.awc
+
+request.open-meteo -> server.open-meteo -> receive.open-meteo -> refine.open-meteo -> send.open-meteo -> pocketbase.open-meteo
+request.openweather -> server.openweather -> receive.openweather -> refine.openweather -> send.openweather -> pocketbase.openweather
+
+pocketbase.accuweather -> log
+pocketbase.awc -> log
+pocketbase.open-meteo -> log
+pocketbase.openweather -> log

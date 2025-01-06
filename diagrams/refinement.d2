@@ -1,0 +1,18 @@
+obtain: Obtener
+obtain.data: Datos
+obtain.data.shape: page
+
+refine: Refinar
+refine.redate: Re-escribir
+refine.redate.data: Datos
+refine.redate.data.shape: page
+refine.round: Redondear
+refine.round.data: Datos
+refine.round.data.shape: page
+refine.interpolate: Interpolar
+refine.interpolate.data: Datos
+refine.interpolate.data.shape: page
+
+obtain.data -> refine.redate.data: re-date.py
+refine.redate.data -> refine.round.data: round.py
+refine.round.data -> refine.interpolate.data: interpolate.py

@@ -1,0 +1,37 @@
+wake: Iniciar sistema
+wake.shape: oval
+
+wifi: Iniciar conexion WiFi
+
+obtain: Recolectar
+obtain.data: Datos
+obtain.data.shape: circle
+
+write: Escribir
+write.data: Datos
+write.data.shape: stored_data
+write.SD: microSD
+write.SD.shape: page
+send: Enviar
+send.data: Datos
+send.data.shape: package
+
+wait: Esperar por 10 minutos
+
+wake -> wifi: Encender LED
+wifi -> obtain: Conexión WiFi exitosa
+wifi -> wake: Fallo en conexion WiFi
+obtain -> write -> send
+wait -> obtain
+
+obtain.data -> write.data -> send.data -> server.data
+obtain.data -> write.SD
+server -> send: Respuesta
+
+send -> wait: Respuesta recibida correcta
+send -> wake: Error en la respuesta recibida
+
+server: Servidor
+server.shape: cloud
+server.data: Datos
+server.data.shape: page
